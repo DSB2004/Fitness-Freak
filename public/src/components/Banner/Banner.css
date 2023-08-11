@@ -1,0 +1,20 @@
+#Banner {
+    position: sticky;
+    top: -5px;
+    left: 0px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    /* width: 100%; */
+    overflow-x: hidden;
+}
+
+
+#text {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px
+}

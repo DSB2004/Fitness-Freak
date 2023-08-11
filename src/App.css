@@ -1,0 +1,54 @@
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  background-color: var(--body-background-color);
+}
+
+:root {
+  --web-div-background-color: rgb(219, 219, 219);
+  --web-text-color: black;
+  --web-div-border-color: black;
+  --body-background-color: rgb(214 214 214);
+
+}
+
+[data-div="web_div"] {
+  background-color: var(--web-div-background-color);
+  border-color: var(--web-div-border-color);
+  transition: all 200ms ease-in-out;
+}
+
+[data-text="web_text"] {
+  color: var(--web-text-color);
+  transition: all 200ms ease-in-out;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  padding: 0px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  padding: 0px;
+}
+
+
+@media only screen and (max-width:800px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+}

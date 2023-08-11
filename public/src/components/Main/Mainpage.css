@@ -1,0 +1,158 @@
+.Main {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#Main-1 {
+    width: 12%;
+    height: 80%;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: auto 8px;
+
+}
+
+#Main-2 {
+    overflow-y: scroll;
+    width: 85%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 97%;
+    border-width: 0px;
+    /* display: none; */
+}
+
+.nav_text {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nav_text:hover {
+    font-weight: bolder;
+}
+
+#signout {
+    width: 90%;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#icons_div {
+    display: none;
+}
+
+
+
+#out {
+    display: none;
+    border-top-width: 2px;
+    border-bottom-width: 0px;
+    border-style: solid;
+    width: 100%;
+    justify-content: right;
+    align-items: center;
+    padding: 5px;
+}
+
+.out_icon {
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+#content {
+    height: 95%;
+    margin: 5px;
+    width: 100%;
+    overflow-y: scroll;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.content_ {
+    height: 100px;
+    width: 100px;
+}
+
+@media only screen and (max-width:950px) {
+
+    #out {
+        display: flex;
+    }
+
+    #icons_div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        padding-bottom: 0px;
+        font-size: 20px;
+        width: 100%;
+        border-top-width: 0px;
+        border-bottom-width: 2px;
+        border-style: solid;
+    }
+
+    .out_icon {
+        font-size: 20px;
+    }
+
+    .Nav_icon {
+        padding: 0px;
+        margin: 5px 40px;
+    }
+
+    #text_div {
+        display: none;
+    }
+
+    #Main-1 {
+        display: none;
+    }
+
+    #Main-2 {
+        margin: 10px;
+        width: 100%;
+    }
+
+    #User_pic {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+    #Main-2 {
+        height: 95%;
+    }
+
+}
+
+@media only screen and (max-width:400px) {
+
+
+    .Nav_icon {
+        padding: 0px;
+        margin: 5px 25px;
+    }
+}

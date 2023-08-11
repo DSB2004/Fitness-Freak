@@ -1,0 +1,130 @@
+#great {
+    font-size: 45px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+#quote_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+#quote {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 900;
+    font-size: 29px;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#author {
+    margin: 0px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 0px;
+    text-align: right;
+    width: 100%;
+    font-size: 15px;
+}
+
+#coverline {
+    font-size: 23px;
+    text-align: center;
+    margin: 50px 40px;
+}
+
+#moto_div {
+    /* border: 2px solid black; */
+    margin: 5px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#motos {
+    height: 100%;
+    width: 60%;
+    border-width: 5px;
+    border-style: double;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: auto
+}
+
+#moto_content {
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width:900px) {
+    #great {
+        font-size: 35px;
+    }
+
+    #quote_div {
+        width: 90%;
+        height: 180px;
+    }
+
+    #quote {
+        font-size: 24px;
+    }
+
+    #author {
+        text-align: center;
+    }
+
+    #coverline {
+        font-size: 18px;
+        margin: 50px 10px;
+    }
+
+    #motos {
+        width: 100%;
+    }
+
+    #title {
+        font-size: 15px;
+        font-weight: 600;
+        margin-right: auto
+    }
+
+    #moto_content {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width:300px) {
+    #great {
+        font-size: 28px;
+    }
+
+    #quote_div {
+        margin: 50px 0px;
+    }
+
+}

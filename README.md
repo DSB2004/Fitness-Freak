@@ -1,0 +1,3 @@
+Fitness Website Repository README
+
+Welcome to the Fitness Website repository! This project is built using React.js, CSS, HTML, and Express.js, employing ES6 JavaScript modules. The website offers features like Firebase authentication for user management. To get started, run the server.js file in Server folder on localhost.By default, the express server will start on 80 port. Please note that Google authentication is currently configured for local testing only. Stay tuned for a live link in the near future as we continue to enhance this fitness experience. Join us on the path to wellness and enjoy exploring the world of fitness through this dynamic web application. Your journey begins here!
