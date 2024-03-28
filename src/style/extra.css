@@ -1,0 +1,11 @@
+.trans-500 {
+    transition: all 500ms ease-in-out;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.justify {
+    text-align: justify;
+}

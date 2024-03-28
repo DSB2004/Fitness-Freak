@@ -1,0 +1,15 @@
+.auth-provider {
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--base-3);
+}
+
+.auth-provider h2 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.auth-provider span {
+    font-size: 35px;
+}

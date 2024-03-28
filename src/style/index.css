@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap);
+
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default;
+  background-color: var(--base)
+}
+
+
+
+@import url(./theme.css);
+@import url(./margin-padding.css);
+@import url(./display.css);
+@import url(./extra.css);
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+button:focus {
+  outline: none;
+  border: none;
+
+}
+
+li,
+button,
+a {
+  cursor: pointer;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+

@@ -1,0 +1,49 @@
+.user-info {
+    position: relative;
+    margin: 0px 10px;
+    background-color: var(--base-3);
+    border-radius: 100%;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+}
+
+.user-btn {
+    font-size: 20px;
+}
+
+.user-info-container {
+    display: none;
+    position: absolute;
+    background-color: var(--base-3);
+    right: 20px;
+    top: 40px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+
+.userinfo-flex {
+    display: flex;
+}
+
+.user-info-container-name {
+    font-size: 1em;
+}
+
+.user-info-container-email {
+    font-size: 0.8em
+}
+
+.logout-btn {
+    background-color: red;
+    border: none;
+    font-size: 0.6em;
+    color: white;
+    padding: 5px;
+    margin: 5px auto;
+    margin-top: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}

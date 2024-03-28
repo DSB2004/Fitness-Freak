@@ -1,0 +1,22 @@
+.input-div {
+    position: relative;
+}
+
+.input-div input {
+    border: none;
+    width: 300px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.input-div input:focus {
+    outline: none;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    font-size: 20px;
+    transform: translateY(-50%);
+}

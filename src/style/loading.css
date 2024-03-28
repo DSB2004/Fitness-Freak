@@ -1,0 +1,52 @@
+.loading-section {
+    height: 100vh;
+}
+
+.loading-heading {
+    font-size: 80px;
+    margin: 10px;
+}
+
+.loader-line {
+    display: block;
+    width: 280px;
+    height: 5px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+
+}
+
+.loader-line::before {
+    content: "";
+    position: absolute;
+    background: var(--s-color);
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-radius: 30px;
+    animation: moving 1s ease-in-out infinite;
+    ;
+}
+
+@keyframes moving {
+    50% {
+        width: 100%;
+    }
+
+    100% {
+        width: 0;
+        right: 0;
+        left: unset;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .loading-heading {
+        font-size: 50px;
+        margin: 10px;
+    }
+
+}

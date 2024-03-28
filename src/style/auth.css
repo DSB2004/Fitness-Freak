@@ -1,0 +1,49 @@
+.auth-section {
+    min-height: 100svh;
+}
+
+.auth-form {
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 18px;
+    background-color: var(--base-2);
+}
+
+
+
+.auth-form-h1 {
+    padding-top: 30px;
+    font-size: 25px;
+}
+
+.auth-form-icon {
+    font-size: 80px;
+    transform: rotate(135deg);
+}
+
+
+
+.auth-msg {
+    font-weight: 400;
+}
+
+@media screen and (max-width:500px) {
+
+    .auth-section {
+        background-color: var(--base-2);
+    }
+
+    .auth-form {
+        box-shadow: none;
+        width: 100%;
+        border-radius: 0px;
+        background-image: none;
+    }
+
+
+
+}

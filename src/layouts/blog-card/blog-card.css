@@ -1,0 +1,42 @@
+.blog-card {
+    width: 260px;
+    height: 340px;
+    background-color: var(--base-2);
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.blog-card-img {
+    height: 180px;
+    width: 90%;
+}
+
+.blog-card-header {
+    height: 20px;
+    width: 90%;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.blog-card-p {
+    height: 90px;
+    text-align: justify;
+    width: 90%;
+    font-size: 14px;
+}
+
+
+/* 
+
+.blog-card h2 {
+    margin: 10px 5px;
+    font-size: 18px;
+}
+
+.blog-card p {
+    font-size: 13px;
+    margin: 0px 5px;
+    text-align: justify;
+    margin-bottom: auto;
+} */

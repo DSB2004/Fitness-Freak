@@ -1,0 +1,19 @@
+.feature-card {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    width: 320px;
+    background-color: var(--base-2);
+    height: 260px;
+}
+
+.card-image {
+    height: 200px;
+    width: 90%;
+}
+
+.card-header {
+    height: 20px;
+    font-size: 18px;
+    width: 90%;
+}

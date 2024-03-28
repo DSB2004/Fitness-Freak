@@ -1,0 +1,25 @@
+:root {
+    --s-color: rgb(100, 162, 255);
+    --yellow: rgb(255, 187, 0);
+    --base: rgb(247, 247, 247);
+    --base-2: rgb(228, 228, 228);
+    --base-3: rgb(212, 212, 212);
+    --base-4: rgb(200, 200, 200);
+    --load: rgb(190, 190, 190);
+}
+
+.s-color {
+    color: var(--s-color);
+}
+
+.s-bg {
+    background-color: var(--s-color);
+}
+
+.opac-bg {
+    background-color: var(--base);
+}
+
+.load {
+    background-color: var(--load)
+}
