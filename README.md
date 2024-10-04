@@ -71,4 +71,4 @@ Check the .env.example file for more reference
 
 ## Demo
 
-Follow this link to view the project live: https://elegant-lokum-065a2b.netlify.app/Cke272w6tsPEkLey85Y5zm2EDUq1/dashboard
+Follow this link to view the project live: [https://elegant-lokum-065a2b.netlify.app](https://elegant-lokum-065a2b.netlify.app/)
